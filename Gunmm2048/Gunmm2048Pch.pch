@@ -1,0 +1,24 @@
+//
+//  Gunmm2048Pch.pch
+//  Gunmm2048
+//
+//  Created by 闵哲 on 2016/12/22.
+//  Copyright © 2016年 Gunmm. All rights reserved.
+//
+
+#ifndef Gunmm2048Pch_pch
+#define Gunmm2048Pch_pch
+
+#define kDeviceHeight [UIScreen mainScreen].bounds.size.height
+#define kDeviceWidth [UIScreen mainScreen].bounds.size.width
+
+#define kUserDefaults [NSUserDefaults standardUserDefaults]
+
+#import "UIViewExt.h"
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Gunmm2048Pch_pch */
